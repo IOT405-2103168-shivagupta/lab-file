@@ -1,0 +1,99 @@
+Microsoft Windows [Version 10.0.22621.1485]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user>
+
+C:\Users\user>C:\Users\user\OneDrive\Desktop\IOT405\django\
+'C:\Users\user\OneDrive\Desktop\IOT405\django\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\user>\Users\user\OneDrive\Desktop\IOT405\django\
+'\Users\user\OneDrive\Desktop\IOT405\django\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\user>cd OneDrive\Desktop\IOT405\django\
+
+C:\Users\user\OneDrive\Desktop\IOT405\django>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2631-F5D8
+
+ Directory of C:\Users\user\OneDrive\Desktop\IOT405\django
+
+07-04-2023  21:04    <DIR>          .
+07-04-2023  20:45    <DIR>          ..
+07-04-2023  20:51    <DIR>          IOTPro
+07-04-2023  21:06    <DIR>          IPscan
+               0 File(s)              0 bytes
+               4 Dir(s)  137,009,315,840 bytes free
+
+C:\Users\user\OneDrive\Desktop\IOT405\django>py manage.py st
+artproject Homeauto
+C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe: can't open file 'C:\\Users\\user\\OneDrive\\Desktop\\IOT405\\django\\manage.py': [Errno 2] No such file or directory
+
+C:\Users\user\OneDrive\Desktop\IOT405\django>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2631-F5D8
+
+ Directory of C:\Users\user\OneDrive\Desktop\IOT405\django
+
+07-04-2023  21:04    <DIR>          .
+07-04-2023  20:45    <DIR>          ..
+07-04-2023  20:51    <DIR>          IOTPro
+07-04-2023  21:06    <DIR>          IPscan
+               0 File(s)              0 bytes
+               4 Dir(s)  137,009,180,672 bytes free
+
+C:\Users\user\OneDrive\Desktop\IOT405\django>cd iotpro
+
+C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2631-F5D8
+
+ Directory of C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro
+
+07-04-2023  20:51    <DIR>          .
+07-04-2023  21:04    <DIR>          ..
+07-04-2023  20:51    <DIR>          Include
+07-04-2023  20:51    <DIR>          Lib
+07-04-2023  20:51               333 pyvenv.cfg
+07-04-2023  21:03    <DIR>          Scripts
+               1 File(s)            333 bytes
+               5 Dir(s)  137,009,115,136 bytes free
+
+C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro>cd scrip
+ts
+
+C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro\Scripts>activate
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro\Scripts>cd..
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\IOTPro>cd..
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django>py manage.py startproject Homeauto
+C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe: can't open file 'C:\\Users\\user\\OneDrive\\Desktop\\IOT405\\django\\manage.py': [Errno 2] No such file or directory
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django>django-admin startproject Homeauto
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django>cd hom
+eauto
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\Homeauto>py manage.py startapp light
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\Homeauto>py manage.py startapp firedect
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\Homeauto>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2631-F5D8
+
+ Directory of C:\Users\user\OneDrive\Desktop\IOT405\django\Homeauto
+
+07-04-2023  21:14    <DIR>          .
+07-04-2023  21:12    <DIR>          ..
+07-04-2023  21:14    <DIR>          firedect
+07-04-2023  21:13    <DIR>          Homeauto
+07-04-2023  21:13    <DIR>          light
+07-04-2023  21:12               686 manage.py
+               1 File(s)            686 bytes
+               5 Dir(s)  137,008,492,544 bytes free
+
+(IOTPro) C:\Users\user\OneDrive\Desktop\IOT405\django\Homeauto>dir
